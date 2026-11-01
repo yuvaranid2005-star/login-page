@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.bg-img {
+    background-image: url("image/CSS.png");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+b {
+    color: green;
+    font-size: 18px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+.button {
+    width: 100%;
+    padding: 14px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: darkgreen;
+}
